@@ -32,6 +32,7 @@ class Task5Model(models.Model):
     most_similar_images = models.CharField(max_length=2)
 
 
+
 class Task6Model(models.Model):
     pass
 

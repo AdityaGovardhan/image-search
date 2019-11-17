@@ -14,5 +14,6 @@ class Task2(CreateView):
         return context
 
 
+
 def execute_task2():
     pass

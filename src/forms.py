@@ -8,17 +8,18 @@ class Task1Form(ModelForm):
         fields = ['number_of_latent_semantics']
 
 
+
 class Task2Form(ModelForm):
     class Meta:
         model = models.Task2Model
         fields = ['number_of_clusters']
 
 
+
 class Task3Form(ModelForm):
     class Meta:
         model = models.Task3Model
         fields = ['most_similar_images']
-
 
 class Task4Form(ModelForm):
     class Meta:
